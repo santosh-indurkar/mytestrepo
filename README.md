@@ -3,7 +3,6 @@
 This is a test repository created for getting started with Github and have some basic programs as following,
 
 # maxnumber.py
-
 Finds the maximum number from agiven list.
 
 # file_operations.py
@@ -17,6 +16,9 @@ Few string operations and its output.
 
 # my_first_bash.sh
 Basic shell script which takes command line inputs and prints on console.
+
+# clone_repo.sh
+Shell script to read a file containing Github repositories and clone all, one by one.
 
 # repolist.txt
 Text file containing Github repositories.
