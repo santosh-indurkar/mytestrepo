@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # Print name of the script
 echo "Name of this script : $0"
 
