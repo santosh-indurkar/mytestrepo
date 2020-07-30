@@ -1,13 +1,13 @@
 #!/bin/bash
+# Print name of the script
+echo "Name of this script : $0"
+
 read -p "Please enter your name : " USER
 echo -e "\n\nHello this is $USER!!!"
 
 # Use a variable
 MYNAME="Linus Torvalds"
 printf "\nFather of Linux : $MYNAME\n"
-
-# Print name of the script
-echo "Name of this script : $0"
 
 # Looping through command line inputs
 for NAME in $@
