@@ -18,7 +18,7 @@ cd "$dirname"
 pwd
 
 # Cloning the repos one by one in newly created directory
-while IFS= read -r line
+while read line
 do
   git clone $line
 done < "$file_path"
