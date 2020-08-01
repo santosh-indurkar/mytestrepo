@@ -1,7 +1,6 @@
 #!/bin/bash
 
 # Read the file containing repository links
-file_path='/home/vagrant/myrepo/mytestrepo/repolist.txt'
 read -p "Enter the directoy for cloning : " dirname
 
 # Creating new directory as user input
@@ -21,7 +20,7 @@ pwd
 while read line
 do
   git clone $line
-done < "$file_path"
+done < $1
 
 # Wait for 10 sec and then delete the newly cloned repos
 echo "Sleeping for 10 sec..."
